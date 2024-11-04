@@ -1,0 +1,643 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wahyu Aprilliandhika &mdash; portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<!-- <meta name="author" content="freehtml5.co" /> -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		.modal {
+		display: none;
+		position: fixed;
+		z-index: 1000;
+		padding-top: 60px;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+
+	.modal-content {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#modalImage {
+		max-width: 80%;
+		max-height: 80vh;
+	}
+
+	.close, .prev, .next {
+		cursor: pointer;
+		position: absolute;
+		color: white;
+		font-size: 24px;
+		font-weight: bold;
+		user-select: none;
+	}
+
+	.close {
+		top: 10px;
+		right: 25px;
+	}
+
+	.prev {
+		left: 10px;
+	}
+
+	.next {
+		right: 10px;
+	}
+	.prev, .next {
+		cursor: pointer; /* Menunjukkan kursor tangan saat hover */
+		position: absolute; /* Posisi absolut di dalam modal */
+		color: white; /* Warna teks putih */
+		font-size: 30px; /* Ukuran font tombol */
+		font-weight: bold; /* Menebalkan teks */
+		user-select: none; /* Nonaktifkan pemilihan teks */
+		top: 50%; /* Vertikal di tengah */
+		transform: translateY(-50%); /* Sesuaikan posisi */
+		background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang transparan */
+		padding: 10px; /* Jarak di dalam tombol */
+		border-radius: 5px; /* Sudut tombol membulat */
+		transition: background-color 0.3s; /* Animasi transisi warna */
+	}
+
+	.prev:hover, .next:hover {
+		background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang saat hover */
+	}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/waw.jpeg);"></div>
+							<h1><span>Wahyu Aprilliandhika</span></h1>
+							<h3><span>Software Engineer & ML/AI Engineer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
+									<li><a href="https://www.instagram.com/wahyu_aprilliandhika/?utm_medium=copy_link"><i class="icon-instagram2"></i></a></li>
+									<li><a href="www.linkedin.com/in/wahyu-aprilliandhika"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://github.com/biskuatcoklat"><i class="icon-github2"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Wahyu Aprilliandhika</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+62 8174708903</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">wahyuandhika910@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">https://</span></li>
+						<li><span class="first-block">Living:</span><span class="second-block">Medan, North Sumatera. Indonesia</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>A Informatics student at Universitas Amikom Yogyakarta and an experienced software engineer with over three years working at an IT consultancy. I have a strong interest in software engineering, particularly in sentiment analysis and machine learning model optimization. My research includes applying the EfficientNetB0 model for rice leaf disease classification and sentiment analysis on the performance of Indonesia’s KPU using BERT and SVM, enhanced by optimization techniques such as Adam and Grid Search CV. Additionally, I am skilled in software development with Laravel and in exploring multimodal data.</p>
+					
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://www.instagram.com/wahyu_aprilliandhika/?utm_medium=copy_link"><i class="icon-instagram2"></i></a></li>
+							<li><a href="www.linkedin.com/in/wahyu-aprilliandhika"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="https://github.com/biskuatcoklat"><i class="icon-github2"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Programmer</h3>
+									<span class="company">PT DURIO INDIGO - 2021 - Now</span>
+								</div>
+								<div class="timeline-body">
+									<p>Work in a team as a Software Engineer who is proficient in software development and interested in software architecture. Having knowledge about API, microservices, operating system. Has a lot of experience in participating in software development competitions.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Junior Programmer</h3>
+									<span class="company">PT DURIO INDIGO - 2021 - 2022</span>
+								</div>
+								<div class="timeline-body">
+									<p>jobdesk developed website company profile using Laravel</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Photo & Video Editing internship</h3>
+									<span class="company">Focus Wedding & Event Organizer - 2019 - 3 Months</span>
+								</div>
+								<div class="timeline-body">
+									<p>As photo and video editing for event & wedding</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelors of Computer Science</h3>
+									<span class="company">University Amikom Yogyakarta - 2021 - 2025</span>
+								</div>
+								<div class="timeline-body">
+									<p>- Majoring in informatics, and a software engineer and Data Mining concentration course</p><p>- Cumlaude with GPA: 3.84 / 4.00</p> <p>- Scientist <a href="http://jutif.if.unsoed.ac.id/index.php/jurnal/article/view/1951">= COMPARISON OF K-NEAREST NEIGHBOR AND SUPPORT VECTOR MACHINE ALGORITHM OPTIMIZATION WITH GRID SEARCH CV ON STROKE PREDICTION</a></p> <p>- 2nd Place in the Gelar Karya Mahasiswa (GKM) Informatics 2023</p> <p>- Software Development Category. 3rd Place in the Amikom Information Communication Technology Award (AMICTA) 2023 Information System Application Category.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">High School</h3>
+									<span class="company">SMKN 9 Medan - 2018 - 2021</span>
+								</div>
+								<div class="timeline-body">
+									<p>Majoring Multimedia</p>
+								</div>
+							</div>
+						</li>
+						
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-classic-computer"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Developent Software</h3>
+								<p>usually I use tech laravel, c#, go-lang</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>ML/DL</h3>
+								<p>ML/DL for research in journal publishing</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Bug Fixing of System</h3>
+								<p>repair and maintain the system</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="97"><span><strong>Laravel</strong>97%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Python</strong>90%</span></div>
+				</div>
+
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>C#</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>go-lang</strong>85%</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Laravel</span><span class="value-right">97%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width:97%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">C#</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Go-lang</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Project</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/image.png);">
+						<div class="desc">
+							<h3>Tixvel</h3>
+							<span>System ticketing Management Event</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(zinggo/image.png);">
+						<div class="desc">
+							<h3>Zinggo</h3>
+							<span>E-commerce</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(amikom/image.png);">
+						<div class="desc">
+							<h3>Amikom News</h3>
+							<span>CMS</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(predvel/image.png);">
+						<div class="desc">
+							<h3>Predvel</h3>
+							<span>Prediction System Stroke use KNN Algorithm with Accuracy 95%</span>
+						</div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div id="imageModal" class="modal">
+		<span class="close">&times;</span>
+		<div class="modal-content">
+			<span class="prev">&#10094;</span>
+			<img id="modalImage" src="" alt="Image">
+			<span class="next">&#10095;</span>
+		</div>
+	</div>
+
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>All My Project Push in github</h2>
+					<p>In the projects above, I only pushed a few others to GitHub, click the link below</p>
+					<a href="https://github.com/biskuatcoklat"><p>Click in Here</p></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me!</h2>
+					<p>Thank you for visiting my portfolio! I’m always open to new opportunities and collaborations. Whether you’re looking to work together on a project, discuss a potential partnership, or just want to connect.</p>
+					<p><a href="#fh5co-consult" class="btn btn-default btn-lg">Contact Us</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="#">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+
+			</form>	
+		</div>
+	</div>
+	<br><br>
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.5306460277725!2d98.62519781313259!3d3.559229473183842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc1c3eb2fd%3A0x23d431c8a6908262!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1730691504713!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2024 Wahyu Aprilliandhika. All Rights Reserved. <br>Designed by <a href="https://github.com/biskuatcoklat" target="_blank">Wahyu Aprilliandhika</a> </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+		$(document).ready(function() {
+    // Define project images
+		const projects = {
+			"Tixvel": [
+				"images/home.png",
+				"images/login.png",
+				"images/register.png",
+				"images/event.png",
+				"images/detailevent.png",
+				"images/carttiket.png",
+				"images/pay.png",
+				"images/tiket.png",
+				"images/history.png",
+				"images/detailtiket.png"
+			],
+			"Zinggo": [
+				"zinggo/home.png",
+				"zinggo/products.png",
+				"zinggo/product detail.png",
+				"zinggo/login.png",
+				"zinggo/register.png",
+				"zinggo/cart.png",
+				"zinggo/digitalpayment.png",
+				"zinggo/order.png",
+				"zinggo/invoice.png",
+				"zinggo/contact.png",
+				"zinggo/profile.png",
+				"zinggo/forgot password.png",
+			],
+			"Amikom News": [
+				"amikom/home.jpg",
+				"amikom/detail news.jpg",
+				"amikom/menu news.jpg",
+				"amikom/login.jpg",
+				"amikom/register.jpg",
+				"amikom/logout user.jpg",
+			],
+			"Predvel":[
+				"predvel/home.png",
+				"predvel/pred.png"
+			],
+			// Add more projects if needed
+		};
+
+		let currentProject = [];
+		let currentIndex = 0;
+
+		// Event listener for each work item
+		$(".work").click(function(event) {
+			event.preventDefault();
+
+			// Get the project name from the clicked item
+			const projectName = $(this).find("h3").text();
+
+			// Load the images for the selected project
+			currentProject = projects[projectName];
+			currentIndex = 0;
+
+			// Show the first image in the modal
+			showImage(currentIndex);
+		});
+
+		// Function to display the image in the modal
+		function showImage(index) {
+			$("#modalImage").attr("src", currentProject[index]);
+			$("#imageModal").css("display", "block");
+		}
+
+		// Close modal
+		$(".close").click(function() {
+			$("#imageModal").css("display", "none");
+		});
+
+		// Navigate to the previous image
+		$(".prev").click(function() {
+			currentIndex = (currentIndex > 0) ? currentIndex - 1 : currentProject.length - 1;
+			showImage(currentIndex);
+		});
+
+		// Navigate to the next image
+		$(".next").click(function() {
+			currentIndex = (currentIndex < currentProject.length - 1) ? currentIndex + 1 : 0;
+			showImage(currentIndex);
+		});
+
+		// Close modal when clicking outside the image
+		$(window).click(function(event) {
+			if (event.target.id === "imageModal") {
+				$("#imageModal").css("display", "none");
+			}
+		});
+	});
+
+	</script>
+
+	</body>
+</html>
+
